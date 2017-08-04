@@ -1,6 +1,23 @@
+* {
+    font-family: Maven pro;
+}
+
 #movies img,
 #movie img {
     width: 100%;
+}
+
+.form-control {
+    width: 40%;
+    color: black;
+    margin: auto;
+    transition: width 0.8s ease-in-out;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-control:focus {
+    width: 50%;
 }
 
 @media(min-width:960px) {
