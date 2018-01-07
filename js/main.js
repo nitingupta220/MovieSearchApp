@@ -7,7 +7,7 @@ $(document).ready(() => {
 });
 
 function getMovies(searchText) {
-    axios.get(' http://www.omdbapi.com/?i=tt3896198&apikey=e93edc5a&s=' + searchText)
+    axios.get(' https://www.omdbapi.com/?i=tt3896198&apikey=e93edc5a&s=' + searchText)
         .then((response) => {
             console.log(response);
             var movies = response.data.Search;
